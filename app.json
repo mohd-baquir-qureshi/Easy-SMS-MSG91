@@ -2,5 +2,5 @@
   "name": "Easy SMS MSG91 Python Script",
   "description": "Send SMS from Python Script Via MSG91 API-> The Simple and Easy to Use Script.",
   "repository": "https://github.com/mohd-baquir-qureshi/Easy-SMS-MSG91",
-  "keywords": ["python", "flask", "MSG91" ]
+  "keywords": ["python", "flask", "MSG91", "SMS", "SmsScript ]
 }
