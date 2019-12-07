@@ -19,7 +19,7 @@ To run this script clone this repo. You will need a MSG91 Account to run this Sc
   * Python 3.3+
   * macOS or Linux or Windows
     
-## Dependencies
+### Dependencies
 
     * Flask
     * Requests
