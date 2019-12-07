@@ -21,9 +21,9 @@ To run this script clone this repo. You will need a MSG91 Account to run this Sc
     
 ### Dependencies
 
-    * Flask
-    * Requests
-    * Gunicorn (Needed When you Deploy the Script on Heroku)
+  * Flask
+  * Requests
+  * Gunicorn (Needed When you Deploy the Script on Heroku)
     
 #### To Install the Dependencies: 
 
@@ -46,7 +46,6 @@ or
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-
 ## Running Locally
 
 Make sure you have Python 3.3+ [installed locally](https://www.python.org/downloads/).
@@ -62,7 +61,6 @@ $ heroku local
 
 Your app should now be running on [localhost:5000](http://localhost:5000/).
 
-
 ## Usage Demo
 
 #### To Run Locally
@@ -72,5 +70,3 @@ Ex. => http://localhost:5000/PYTHON/8888888888/Hello%20Python
 #### To Run After Deploying it on Heroku
 
 Ex. => https://demo-app.herokuapp.com/PYTHON/8888888888/Hello%20Python
-
-
