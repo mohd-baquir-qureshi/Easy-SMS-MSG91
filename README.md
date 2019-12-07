@@ -8,10 +8,66 @@ To run this script clone this repo. You will need a MSG91 Account to run this Sc
     authKey = {YOUR MSG91 AUTH KEY}
 ```
 
-#### Screenshot of MSG91 API Tab Dashboard
+#### Screenshot of MSG91 API Tab
 
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSTErY6SvJOCOOZyZnpd_goHGs8B-g8GGfE-y1ntNsAEpVuWzSl)
 
-Demo => http://localhost:5000/PYTHON/8888888888/Hello%20Python or https://{YOUR HOST ID}.herokuapp.com/PYTHON/8888888888/Hello%20Python
+## Requirements
+
+    * Python 3.3+
+    
+## Dependencies
+
+    * Flask
+    * Requests
+    * Gunicorn (Needed When you Deploy the Script on Heroku)
+    
+#### To Install the Dependencies: 
+
+Run `pip install -r requirements.txt` in the Command Prompt.
+After installing the Dependencies run `python sms.py` in Command Prompt (Only For Windows Users).
+
+## How to Deploy on Heroku
+
+```sh
+$ git clone https://github.com/mohd-baquir-qureshi/Easy-SMS-MSG91.git
+$ cd Easy-SMS-MSG91
+$ git init
+$ git add .
+$ git commit -m "First Commit"
+$ heroku create
+$ git push heroku master
+$ heroku open
+```
+or
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+
+## Running Locally
+
+Make sure you have Python 3.3+ [installed locally](https://www.python.org/downloads/).
+
+```sh
+$ git clone https://github.com/mohd-baquir-qureshi/Easy-SMS-MSG91.git
+$ cd Easy-SMS-MSG91
+
+$ pip install -r requirements.txt
+
+$ heroku local
+```
+
+Your app should now be running on [localhost:5000](http://localhost:5000/).
+
+
+## Usage Demo
+
+#### To Run Locally
+
+Ex. => http://localhost:5000/PYTHON/8888888888/Hello%20Python
+
+#### To Run After Deploying it on Heroku
+
+Ex. => https://demo-app.herokuapp.com/PYTHON/8888888888/Hello%20Python
 
 
