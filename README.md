@@ -1,6 +1,6 @@
 # Easy-SMS-MSG91-Python-Script
 
-This repo shows how to implement a Simple Python SMS Script to Heroku (http://heroku.com/). Send SMS from Python Script Via MSG91 API-> The Simple and Easy to Use Script.
+This repo shows how to implement a Simple Python SMS Script on Heroku (http://heroku.com/). Send SMS from Python Script to any Mobile Number Via MSG91 API-> The Simple and Easy to Use Script. You can Use it to Create Your short SMS API.
 
 To run this script clone this repo. You will need a MSG91 Account to run this Script. [Sign up](https://world.msg91.com/signup/?u3=PN) for a free account (you will get 100 Free Promotional SMS Credits) or [Login](https://control.msg91.com/signin/) if you already have a account on MSG91 then go to your dashboard then click on API Tab to get your credentials (AUTH KEY). Copy the Auth Key and paste it in the `sms.py` Script in authKey Variable.
 
