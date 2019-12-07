@@ -12,16 +12,12 @@ To run this script clone this repo. You will need a MSG91 Account to run this Sc
 
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSTErY6SvJOCOOZyZnpd_goHGs8B-g8GGfE-y1ntNsAEpVuWzSl)
 
-## Requirements
-
-    * Python 3.3+
-    
 ## Installation
 
 ### Requirements
 
-  * Python 3.3+ or Python 2.7
-  * macOS or Linux (Windows not officially supported, but might work)
+  * Python 3.3+
+  * macOS or Linux or Windows
     
 ## Dependencies
 
