@@ -12,11 +12,11 @@ To run this script clone this repo. You will need a MSG91 Account to run this Sc
 
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSTErY6SvJOCOOZyZnpd_goHGs8B-g8GGfE-y1ntNsAEpVuWzSl)
 
-## Requirements
+### Requirements
 
     * Python 3.3+
     
-## Dependencies
+### Dependencies
 
     * Flask
     * Requests
