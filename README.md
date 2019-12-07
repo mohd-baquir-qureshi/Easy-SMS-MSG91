@@ -4,7 +4,7 @@ This repo shows how to implement a Simple Python SMS Script to Heroku (http://he
 
 To run this script clone this repo. You will need a MSG91 Account to run this Script. [Sign up](https://world.msg91.com/signup/?u3=PN) for a free account (you will get 100 Free Promotional SMS Credits) or [Login](https://control.msg91.com/signin/) if you already have a account on MSG91 then go to your dashboard then click on API Tab to get your credentials (AUTH KEY). Copy the Auth Key and paste it in the `sms.py` Script in authKey Variable.
 
-```Python
+```sh
     authKey = {YOUR MSG91 AUTH KEY}
 ```
 
@@ -12,11 +12,11 @@ To run this script clone this repo. You will need a MSG91 Account to run this Sc
 
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSTErY6SvJOCOOZyZnpd_goHGs8B-g8GGfE-y1ntNsAEpVuWzSl)
 
-### Requirements
+## Requirements
 
     * Python 3.3+
     
-### Dependencies
+## Dependencies
 
     * Flask
     * Requests
