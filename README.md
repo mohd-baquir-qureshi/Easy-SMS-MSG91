@@ -66,9 +66,11 @@ Your app should now be running on [localhost:5000](http://localhost:5000/).
 #### To Run Locally
 
 Syntax => http://localhost:5000/{SENDER ID}/{MOBILE NUMBER}/{MESSAGE}
+
 Ex. => http://localhost:5000/PYTHON/8888888888/Hello%20Python
 
 #### To Run After Deploying it on Heroku
 
 Syntax => https://demo-app.herokuapp.com/{SENDER ID}/{MOBILE NUMBER}/{MESSAGE}
+
 Ex. => https://demo-app.herokuapp.com/PYTHON/8888888888/Hello%20Python
